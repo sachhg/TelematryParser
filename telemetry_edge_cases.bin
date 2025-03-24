@@ -1,0 +1,18 @@
+Timestamp: 999999999  
+Packet ID: 0xFFFF  
+Temperature: 1000.0 °C (float bytes: 0x447A0000)  
+Pressure: 0.1 kPa  
+Power: 0 V  
+Checksum: 0x00 + 0x00 + 0x7A = 0x7A (122 in decimal)  
+
+
+________________
+Expected Output:
+
+=== Telemetry Packet ===
+Timestamp: 999999999 ms
+Packet ID: 0xffff
+Temperature: 1000 °C
+Pressure: 0.1 kPa
+Power: 0 V
+Checksum: VALID
