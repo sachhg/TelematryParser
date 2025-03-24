@@ -1,0 +1,9 @@
+Temperature bytes: [00 00 CC 41]  
+Checksum: 0x00 (invalid; should be 0xCC)  
+
+________________
+Expected Output:
+
+=== Telemetry Packet ===
+... (same as above except checksum)
+Checksum: INVALID
