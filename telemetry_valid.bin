@@ -1,0 +1,15 @@
+Timestamp: 0x075BCD15 (123456789 in decimal)  
+Packet ID: 0x03E9 (1001 in decimal)  
+Temperature: 0x41CC0000 (25.5 in IEEE 754 float) → bytes [00 00 CC 41]  
+Checksum: 0x00 + 0x00 + 0xCC = 0xCC (204 in decimal)  
+
+________________
+Expected output:
+
+=== Telemetry Packet ===
+Timestamp: 123456789 ms
+Packet ID: 0x3e9
+Temperature: 25.5 °C
+Pressure: 50 kPa
+Power: 156 V
+Checksum: VALID
